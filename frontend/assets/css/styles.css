@@ -1,0 +1,71 @@
+/* Variáveis CSS com as cores corporativas */
+:root {
+    --cor-primaria: #005e8a;
+    --cor-secundaria: #80bc00;
+    --cor-texto: #333333;
+    --cor-fundo: #f5f9fc;
+    --cor-borda: #dce8f1;
+    
+    /* Cores de status */
+    --cor-success: #30803c;
+    --cor-success-bg: #e0f0d9;
+    --cor-warning: #a86228;
+    --cor-warning-bg: #fcecd2;
+    --cor-danger: #d9534f;
+    --cor-danger-bg: #f8d7da;
+    --cor-info: #2d7fc9;
+    --cor-info-bg: #d1e6f9;
+}
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    line-height: 1.6;
+}
+
+/* Layout principal */
+header {
+    background-color: var(--cor-primaria);
+    color: white;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.container {
+    display: flex;
+    margin-top: 60px; /* Espaço para o header fixo */
+}
+
+/* Menu lateral */
+#menu-lateral {
+    background-color: white;
+    width: 250px;
+    height: calc(100vh - 60px);
+    position: fixed;
+    border-right: 1px solid var(--cor-borda);
+    padding: 1rem;
+}
+
+/* Área de conteúdo principal */
+#conteudo-principal {
+    flex: 1;
+    margin-left: 250px; /* Largura do menu lateral */
+    padding: 2rem;
+}
+
+/* Utilitários */
+.status-success { color: var(--cor-success); background-color: var(--cor-success-bg); }
+.status-warning { color: var(--cor-warning); background-color: var(--cor-warning-bg); }
+.status-danger { color: var(--cor-danger); background-color: var(--cor-danger-bg); }
+.status-info { color: var(--cor-info); background-color: var(--cor-info-bg); }

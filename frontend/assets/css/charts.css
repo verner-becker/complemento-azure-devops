@@ -1,0 +1,55 @@
+/* Estilos específicos para gráficos e visualizações */
+
+/* Container para gráficos */
+.chart-container {
+    background-color: white;
+    border: 1px solid var(--cor-borda);
+    border-radius: 4px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Dimensões padrão dos gráficos */
+.chart {
+    width: 100%;
+    min-height: 300px;
+}
+
+/* Estilos específicos para o Gantt */
+.gantt-chart {
+    overflow-x: auto;
+    min-height: 400px;
+}
+
+/* Estilos para o mapa de dependências */
+.dependencies-map {
+    min-height: 500px;
+}
+
+/* Estilos para gráficos de capacidade */
+.capacity-chart {
+    min-height: 350px;
+}
+
+/* Legendas dos gráficos */
+.chart-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border-top: 1px solid var(--cor-borda);
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+.legend-color {
+    width: 12px;
+    height: 12px;
+    margin-right: 0.5rem;
+    border-radius: 2px;
+}
