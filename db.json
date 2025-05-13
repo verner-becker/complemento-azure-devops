@@ -117,8 +117,9 @@
       "updatedAt": "2025-05-13T10:00:00Z"
     }
   ],
-  "reports": {
-    "initiatives": {
+  "reportInitiatives": [
+    {
+      "id": "initiatives",
       "totalCount": 2,
       "byStatus": {
         "IN_PROGRESS": 1,
@@ -126,8 +127,11 @@
         "COMPLETED": 0
       },
       "averageProgress": 17.5
-    },
-    "packages": {
+    }
+  ],
+  "reportPackages": [
+    {
+      "id": "packages",
       "totalCount": 2,
       "byStatus": {
         "IN_DEVELOPMENT": 1,
@@ -138,8 +142,11 @@
         "Time Backend": 1,
         "Time Frontend": 1
       }
-    },
-    "epics": {
+    }
+  ],
+  "reportEpics": [
+    {
+      "id": "epics",
       "totalCount": 2,
       "byStatus": {
         "IN_PROGRESS": 2,
@@ -147,5 +154,33 @@
       },
       "averageProgress": 55
     }
-  }
+  ],
+  "reportGantt": [
+    {
+      "id": "gantt",
+      "data": []
+    }
+  ],
+  "reportDependencies": [
+    {
+      "id": "dependencies",
+      "nodes": [],
+      "edges": []
+    }
+  ],
+  "reportCapacity": [
+    {
+      "id": "capacity",
+      "teams": {
+        "Time Backend": {
+          "capacity": 160,
+          "allocated": 120
+        },
+        "Time Frontend": {
+          "capacity": 160,
+          "allocated": 90
+        }
+      }
+    }
+  ]
 }

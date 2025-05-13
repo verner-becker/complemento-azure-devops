@@ -1,0 +1,149 @@
+# Testes para o Complemento Azure DevOps Mock API
+# Use o plugin REST Client do VS Code para executar estas requisições
+
+### Variáveis de Ambiente
+@baseUrl = http://0.0.0.0:3000/api
+@contentType = application/json
+
+### Configurações do REST Client (importante para dev containers)
+# @no-redirect
+# @no-cookie-jar
+# @no-log
+
+### Iniciativas
+
+# Listar todas as iniciativas
+GET {{baseUrl}}/initiatives
+
+### Obter uma iniciativa específica
+GET {{baseUrl}}/initiatives/1
+
+### Criar uma nova iniciativa
+POST {{baseUrl}}/initiatives
+Content-Type: {{contentType}}
+
+{
+    "code": "INI-003",
+    "title": "Segurança e Compliance",
+    "description": "Melhorias de segurança e adequação à LGPD",
+    "status": "PLANNED",
+    "startDate": "2025-07-01",
+    "endDate": "2025-12-31",
+    "responsible": "Pedro Costa",
+    "progress": 0
+}
+
+### Atualizar uma iniciativa
+PUT {{baseUrl}}/initiatives/2
+Content-Type: {{contentType}}
+
+{
+    "progress": 10,
+    "status": "IN_PROGRESS"
+}
+
+### Listar pacotes de uma iniciativa
+GET {{baseUrl}}/initiatives/1/packages
+
+### Pacotes de Entrega
+
+# Listar todos os pacotes
+GET {{baseUrl}}/packages
+
+### Obter um pacote específico
+GET {{baseUrl}}/packages/1
+
+### Criar um novo pacote
+POST {{baseUrl}}/packages
+Content-Type: {{contentType}}
+
+{
+    "code": "PKG-003",
+    "title": "Mobile App",
+    "description": "Aplicativo móvel da plataforma",
+    "initiativeId": 1,
+    "status": "PLANNED",
+    "startDate": "2025-06-01",
+    "endDate": "2025-09-30",
+    "team": "Time Mobile",
+    "allocatedCapacity": 70,
+    "progress": 0
+}
+
+### Listar épicos de um pacote
+GET {{baseUrl}}/packages/1/epics
+
+### Listar dependências de um pacote
+GET {{baseUrl}}/packages/2/dependencies
+
+### Adicionar uma dependência
+POST {{baseUrl}}/packages/1/dependencies
+Content-Type: {{contentType}}
+
+{
+    "sourcePackageId": 1,
+    "targetPackageId": 2
+}
+
+### Épicos
+
+# Listar todos os épicos
+GET {{baseUrl}}/epics
+
+### Obter um épico específico
+GET {{baseUrl}}/epics/1
+
+### Criar um novo épico
+POST {{baseUrl}}/epics
+Content-Type: {{contentType}}
+
+{
+    "code": "EP-003",
+    "title": "Migração de Dados",
+    "description": "Migração para nova estrutura de dados",
+    "packageId": 1,
+    "status": "PLANNED",
+    "startDate": "2025-04-01",
+    "endDate": "2025-05-31",
+    "responsible": "Lucia Martins",
+    "progress": 0,
+    "effort": 80
+}
+
+### Configurações
+
+# Listar todas as configurações
+GET {{baseUrl}}/configurations
+
+### Obter uma configuração específica
+GET {{baseUrl}}/configurations?configKey=defaultTeamCapacity
+
+### Atualizar uma configuração
+PUT {{baseUrl}}/configurations/1
+Content-Type: {{contentType}}
+
+{
+    "configValue": "180",
+    "description": "Capacidade padrão de horas por mês por equipe (atualizado)"
+}
+
+### Relatórios
+
+# Relatório de status por iniciativa
+GET {{baseUrl}}/reports/initiatives
+
+### Relatório de status por pacote
+GET {{baseUrl}}/reports/packages
+
+### Relatório de progresso de épicos
+GET {{baseUrl}}/reports/epics
+
+### Dados para gráfico de Gantt
+GET {{baseUrl}}/reports/gantt
+
+### Dados para mapa de dependências
+GET {{baseUrl}}/reports/dependencies
+
+### Dados para gráfico de capacidade vs. demanda
+GET {{baseUrl}}/reports/capacity
+

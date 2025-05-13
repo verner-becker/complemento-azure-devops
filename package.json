@@ -4,10 +4,10 @@
   "description": "Complemento para Azure DevOps",
   "main": "index.js",
   "scripts": {
-    "mock-api": "json-server --watch db.json --routes routes.json --port 3000",
+    "mock-api": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "json-server": "^1.0.0-beta.3"
+    "json-server": "^0.17.4"
   }
 }
