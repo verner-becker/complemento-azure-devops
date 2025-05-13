@@ -1,0 +1,151 @@
+{
+  "initiatives": [
+    {
+      "id": 1,
+      "code": "INI-001",
+      "title": "Modernização da Plataforma",
+      "description": "Atualização da plataforma para novas tecnologias",
+      "status": "IN_PROGRESS",
+      "startDate": "2025-01-01",
+      "endDate": "2025-12-31",
+      "responsible": "João Silva",
+      "progress": 35,
+      "createdAt": "2025-01-01T00:00:00Z",
+      "updatedAt": "2025-05-13T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "code": "INI-002",
+      "title": "Melhorias de UX",
+      "description": "Melhorias na experiência do usuário",
+      "status": "PLANNED",
+      "startDate": "2025-06-01",
+      "endDate": "2025-12-31",
+      "responsible": "Maria Santos",
+      "progress": 0,
+      "createdAt": "2025-05-01T00:00:00Z",
+      "updatedAt": "2025-05-13T10:00:00Z"
+    }
+  ],
+  "packages": [
+    {
+      "id": 1,
+      "code": "PKG-001",
+      "title": "Backend API",
+      "description": "Modernização da API do backend",
+      "initiativeId": 1,
+      "status": "IN_DEVELOPMENT",
+      "startDate": "2025-01-01",
+      "endDate": "2025-06-30",
+      "team": "Time Backend",
+      "allocatedCapacity": 80,
+      "progress": 45,
+      "createdAt": "2025-01-01T00:00:00Z",
+      "updatedAt": "2025-05-13T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "code": "PKG-002",
+      "title": "Frontend Web",
+      "description": "Nova interface web",
+      "initiativeId": 1,
+      "status": "PLANNED",
+      "startDate": "2025-04-01",
+      "endDate": "2025-09-30",
+      "team": "Time Frontend",
+      "allocatedCapacity": 60,
+      "progress": 20,
+      "createdAt": "2025-01-01T00:00:00Z",
+      "updatedAt": "2025-05-13T10:00:00Z"
+    }
+  ],
+  "epics": [
+    {
+      "id": 1,
+      "code": "EP-001",
+      "title": "Autenticação e Autorização",
+      "description": "Implementação de novo sistema de autenticação",
+      "packageId": 1,
+      "status": "IN_PROGRESS",
+      "startDate": "2025-01-01",
+      "endDate": "2025-03-31",
+      "responsible": "Carlos Oliveira",
+      "progress": 70,
+      "effort": 100,
+      "createdAt": "2025-01-01T00:00:00Z",
+      "updatedAt": "2025-05-13T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "code": "EP-002",
+      "title": "API RESTful",
+      "description": "Implementação de endpoints REST",
+      "packageId": 1,
+      "status": "IN_PROGRESS",
+      "startDate": "2025-02-01",
+      "endDate": "2025-05-31",
+      "responsible": "Ana Pereira",
+      "progress": 40,
+      "effort": 150,
+      "createdAt": "2025-01-01T00:00:00Z",
+      "updatedAt": "2025-05-13T10:00:00Z"
+    }
+  ],
+  "packageDependencies": [
+    {
+      "id": 1,
+      "sourcePackageId": 2,
+      "targetPackageId": 1,
+      "createdAt": "2025-01-01T00:00:00Z"
+    }
+  ],
+  "configurations": [
+    {
+      "id": 1,
+      "configKey": "defaultTeamCapacity",
+      "configValue": "160",
+      "description": "Capacidade padrão de horas por mês por equipe",
+      "createdAt": "2025-01-01T00:00:00Z",
+      "updatedAt": "2025-05-13T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "configKey": "defaultEffortUnit",
+      "configValue": "story_points",
+      "description": "Unidade padrão para medição de esforço",
+      "createdAt": "2025-01-01T00:00:00Z",
+      "updatedAt": "2025-05-13T10:00:00Z"
+    }
+  ],
+  "reports": {
+    "initiatives": {
+      "totalCount": 2,
+      "byStatus": {
+        "IN_PROGRESS": 1,
+        "PLANNED": 1,
+        "COMPLETED": 0
+      },
+      "averageProgress": 17.5
+    },
+    "packages": {
+      "totalCount": 2,
+      "byStatus": {
+        "IN_DEVELOPMENT": 1,
+        "PLANNED": 1,
+        "COMPLETED": 0
+      },
+      "byTeam": {
+        "Time Backend": 1,
+        "Time Frontend": 1
+      }
+    },
+    "epics": {
+      "totalCount": 2,
+      "byStatus": {
+        "IN_PROGRESS": 2,
+        "COMPLETED": 0
+      },
+      "averageProgress": 55
+    }
+  }
+}

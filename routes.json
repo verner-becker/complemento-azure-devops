@@ -1,0 +1,25 @@
+{
+  "/api/initiatives": "/initiatives",
+  "/api/initiatives/:id": "/initiatives/:id",
+  "/api/initiatives/:id/packages": "/packages?initiativeId=:id",
+  
+  "/api/packages": "/packages",
+  "/api/packages/:id": "/packages/:id",
+  "/api/packages/:id/epics": "/epics?packageId=:id",
+  "/api/packages/:id/dependencies": "/packageDependencies?sourcePackageId=:id",
+  
+  "/api/epics": "/epics",
+  "/api/epics/:id": "/epics/:id",
+  
+  "/api/packages/:id/dependencies/:dependencyId": "/packageDependencies/:dependencyId",
+  
+  "/api/configurations": "/configurations",
+  "/api/configurations/:key": "/configurations?configKey=:key",
+  
+  "/api/reports/initiatives": "/reports/initiatives",
+  "/api/reports/packages": "/reports/packages",
+  "/api/reports/epics": "/reports/epics",
+  "/api/reports/gantt": "/reports/gantt",
+  "/api/reports/dependencies": "/reports/dependencies",
+  "/api/reports/capacity": "/reports/capacity"
+}
