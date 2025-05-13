@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fundo -->
+  <rect width="1000" height="700" fill="#f9f9f9"/>
+  
+  <!-- Cabeçalho -->
+  <rect x="0" y="0" width="1000" height="60" fill="#005e8a"/>
+  <text x="30" y="38" font-family="Segoe UI" font-size="22" font-weight="bold" fill="white">Complemento Azure DevOps</text>
+  
+  <!-- Barra lateral -->
+  <rect x="0" y="60" width="250" height="640" fill="white"/>
+  <rect x="0" y="60" width="250" height="640" stroke="#dce8f1" stroke-width="1" fill="none"/>
+  
+  <!-- Itens do menu -->
+  <text x="20" y="90" font-family="Segoe UI" font-size="16" font-weight="bold" fill="#005e8a">NAVEGAÇÃO</text>
+  <rect x="0" y="100" width="250" height="40" fill="#f5f9fc"/>
+  <text x="20" y="125" font-family="Segoe UI" font-size="14" fill="#333333">Dashboard</text>
+  
+  <text x="20" y="165" font-family="Segoe UI" font-size="14" font-weight="bold" fill="#005e8a">Cadastros</text>
+  <rect x="0" y="175" width="250" height="40" fill="#f5f9fc"/>
+  <rect x="0" y="175" width="4" height="40" fill="#80bc00"/>
+  <text x="20" y="200" font-family="Segoe UI" font-size="14" fill="#005e8a">Iniciativas</text>
+  <text x="20" y="240" font-family="Segoe UI" font-size="14" fill="#333333">Pacotes de Entrega</text>
+  <text x="20" y="280" font-family="Segoe UI" font-size="14" fill="#333333">Épicos</text>
+  
+  <text x="20" y="320" font-family="Segoe UI" font-size="14" font-weight="bold" fill="#005e8a">Visualizações</text>
+  <text x="20" y="360" font-family="Segoe UI" font-size="14" fill="#333333">Gráfico de Gantt</text>
+  <text x="20" y="400" font-family="Segoe UI" font-size="14" fill="#333333">Mapa de Dependências</text>
+  <text x="20" y="440" font-family="Segoe UI" font-size="14" fill="#333333">Capacidade vs. Demanda</text>
+  
+  <text x="20" y="480" font-family="Segoe UI" font-size="14" font-weight="bold" fill="#005e8a">Relatórios</text>
+  <text x="20" y="520" font-family="Segoe UI" font-size="14" fill="#333333">Status por Iniciativa</text>
+  <text x="20" y="560" font-family="Segoe UI" font-size="14" fill="#333333">Status por Pacote</text>
+  <text x="20" y="600" font-family="Segoe UI" font-size="14" fill="#333333">Progresso de Épicos</text>
+  
+  <text x="20" y="640" font-family="Segoe UI" font-size="14" font-weight="bold" fill="#005e8a">Configurações</text>
+  <text x="20" y="680" font-family="Segoe UI" font-size="14" fill="#333333">Parâmetros do Sistema</text>
+  
+  <!-- Área principal de conteúdo -->
+  <rect x="250" y="60" width="750" height="640" fill="white"/>
+  
+  <!-- Título da página -->
+  <text x="280" y="100" font-family="Segoe UI" font-size="24" font-weight="bold" fill="#005e8a">Cadastro de Iniciativas</text>
+  <line x1="280" y1="110" x2="950" y2="110" stroke="#80bc00" stroke-width="2"/>
+  
+  <!-- Botões de ação -->
+  <rect x="750" y="70" width="100" height="30" rx="4" fill="#80bc00"/>
+  <text x="800" y="90" font-family="Segoe UI" font-size="14" fill="white" text-anchor="middle">Novo</text>
+  <rect x="860" y="70" width="100" height="30" rx="4" fill="#005e8a"/>
+  <text x="910" y="90" font-family="Segoe UI" font-size="14" fill="white" text-anchor="middle">Importar</text>
+  
+  <!-- Grid Principal -->
+  <rect x="280" y="130" width="670" height="200" rx="4" fill="white" stroke="#dce8f1" stroke-width="1"/>
+  
+  <!-- Cabeçalho do Grid -->
+  <rect x="280" y="130" width="670" height="40" rx="4" fill="#f5f9fc"/>
+  <line x1="280" y1="170" x2="950" y2="170" stroke="#dce8f1" stroke-width="1"/>
+  <text x="300" y="155" font-family="Segoe UI" font-size="14" font-weight="bold" fill="#333333">ID</text>
+  <text x="400" y="155" font-family="Segoe UI" font-size="14" font-weight="bold" fill="#333333">Código</text>
+  <text x="500" y="155" font-family="Segoe UI" font-size="14" font-weight="bold" fill="#333333">Título</text>
+  <text x="700" y="155" font-family="Segoe UI" font-size="14" font-weight="bold" fill="#333333">Status</text>
+  <text x="850" y="155" font-family="Segoe UI" font-size="14" font-weight="bold" fill="#333333">Data Fim</text>
+  
+  <!-- Linha selecionada -->
+  <rect x="280" y="170" width="670" height="40" fill="#f5f9fc"/>
+  <text x="300" y="195" font-family="Segoe UI" font-size="14" fill="#333333">1</text>
+  <text x="400" y="195" font-family="Segoe UI" font-size="14" fill="#333333">INI-001</text>
+  <text x="500" y="195" font-family="Segoe UI" font-size="14" fill="#333333">Modernização de Gateway</text>
+  <rect x="700" y="180" width="80" height="20" rx="10" fill="#e0f0d9"/>
+  <text x="740" y="195" font-family="Segoe UI" font-size="12" fill="#30803c" text-anchor="middle">Em Progresso</text>
+  <text x="850" y="195" font-family="Segoe UI" font-size="14" fill="#333333">31/12/2025</text>
+  
+  <!-- Linhas normais -->
+  <line x1="280" y1="210" x2="950" y2="210" stroke="#dce8f1" stroke-width="1"/>
+  <text x="300" y="235" font-family="Segoe UI" font-size="14" fill="#333333">2</text>
+  <text x="400" y="235" font-family="Segoe UI" font-size="14" fill="#333333">INI-002</text>
+  <text x="500" y="235" font-family="Segoe UI" font-size="14" fill="#333333">Migração para Nuvem</text>
+  <rect x="700" y="220" width="80" height="20" rx="10" fill="#fcecd2"/>
+  <text x="740" y="235" font-family="Segoe UI" font-size="12" fill="#a86228" text-anchor="middle">Planejado</text>
+  <text x="850" y="235" font-family="Segoe UI" font-size="14" fill="#333333">30/06/2026</text>
+  
+  <line x1="280" y1="250" x2="950" y2="250" stroke="#dce8f1" stroke-width="1"/>
+  <text x="300" y="275" font-family="Segoe UI" font-size="14" fill="#333333">3</text>
+  <text x="400" y="275" font-family="Segoe UI" font-size="14" fill="#333333">INI-003</text>
+  <text x="500" y="275" font-family="Segoe UI" font-size="14" fill="#333333">Segurança e Compliance</text>
+  <rect x="700" y="260" width="80" height="20" rx="10" fill="#d1e6f9"/>
+  <text x="740" y="275" font-family="Segoe UI" font-size="12" fill="#2d7fc9" text-anchor="middle">Não Iniciado</text>
+  <text x="850" y="275" font-family="Segoe UI" font-size="14" fill="#333333">31/03/2026</text>
+  
+  <!-- Painel de Detalhes -->
+  <rect x="280" y="350" width="670" height="330" rx="4" fill="white" stroke="#dce8f1" stroke-width="1"/>
+  <rect x="280" y="350" width="670" height="40" rx="4" fill="#f5f9fc"/>
+  <text x="300" y="375" font-family="Segoe UI" font-size="16" font-weight="bold" fill="#005e8a">Detalhes da Iniciativa</text>
+  
+  <!-- Botões de ação do painel -->
+  <rect x="670" y="355" width="90" height="30" rx="4" fill="#005e8a"/>
+  <text x="715" y="375" font-family="Segoe UI" font-size="14" fill="white" text-anchor="middle">Salvar</text>
+  <rect x="770" y="355" width="90" height="30" rx="4" fill="#bbbbbb"/>
+  <text x="815" y="375" font-family="Segoe UI" font-size="14" fill="white" text-anchor="middle">Cancelar</text>
+  <rect x="870" y="355" width="80" height="30" rx="4" fill="#d9534f"/>
+  <text x="910" y="375" font-family="Segoe UI" font-size="14" fill="white" text-anchor="middle">Excluir</text>
+  
+  <!-- Formulário -->
+  <text x="300" y="420" font-family="Segoe UI" font-size="14" font-weight="bold" fill="#333333">Código:</text>
+  <rect x="300" y="430" width="150" height="35" rx="4" fill="white" stroke="#dce8f1" stroke-width="1"/>
+  <text x="310" y="453" font-family="Segoe UI" font-size="14" fill="#333333">INI-001</text>
+  
+  <text x="500" y="420" font-family="Segoe UI" font-size="14" font-weight="bold" fill="#333333">Status:</text>
+  <rect x="500" y="430" width="200" height="35" rx="4" fill="white" stroke="#dce8f1" stroke-width="1"/>
+  <text x="510" y="453" font-family="Segoe UI" font-size="14" fill="#333333">Em Progresso</text>
+  <polygon points="680,440 690,430 690,450" fill="#333333"/>
+  
+  <text x="300" y="490" font-family="Segoe UI" font-size="14" font-weight="bold" fill="#333333">Título:</text>
+  <rect x="300" y="500" width="650" height="35" rx="4" fill="white" stroke="#dce8f1" stroke-width="1"/>
+  <text x="310" y="523" font-family="Segoe UI" font-size="14" fill="#333333">Modernização de Gateway</text>
+  
+  <text x="300" y="560" font-family="Segoe UI" font-size="14" font-weight="bold" fill="#333333">Descrição:</text>
+  <rect x="300" y="570" width="650" height="70" rx="4" fill="white" stroke="#dce8f1" stroke-width="1"/>
+  <text x="310" y="593" font-family="Segoe UI" font-size="14" fill="#333333">Iniciativa para modernizar a infraestrutura de gateway, melhorando a segurança,</text>
+  <text x="310" y="618" font-family="Segoe UI" font-size="14" fill="#333333">desempenho e capacidade de integração com sistemas externos.</text>
+  
+  <text x="300" y="660" font-family="Segoe UI" font-size="14" font-weight="bold" fill="#333333">Data Início:</text>
+  <rect x="300" y="670" width="150" height="35" rx="4" fill="white" stroke="#dce8f1" stroke-width="1"/>
+  <text x="310" y="693" font-family="Segoe UI" font-size="14" fill="#333333">01/01/2025</text>
+  
+  <text x="500" y="660" font-family="Segoe UI" font-size="14" font-weight="bold" fill="#333333">Data Fim:</text>
+  <rect x="500" y="670" width="150" height="35" rx="4" fill="white" stroke="#dce8f1" stroke-width="1"/>
+  <text x="510" y="693" font-family="Segoe UI" font-size="14" fill="#333333">31/12/2025</text>
+  
+  <text x="700" y="660" font-family="Segoe UI" font-size="14" font-weight="bold" fill="#333333">Responsável:</text>
+  <rect x="700" y="670" width="250" height="35" rx="4" fill="white" stroke="#dce8f1" stroke-width="1"/>
+  <text x="710" y="693" font-family="Segoe UI" font-size="14" fill="#333333">João Silva</text>
+  <polygon points="930,680 940,670 940,690" fill="#333333"/>
+</svg>

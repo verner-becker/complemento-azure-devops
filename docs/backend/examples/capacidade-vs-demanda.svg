@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 900 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fundo -->
+  <rect width="900" height="500" fill="#f9f9f9"/>
+  
+  <!-- Título -->
+  <text x="20" y="40" font-family="Segoe UI" font-size="24" font-weight="bold" fill="#005e8a">Capacidade vs. Demanda por Equipe</text>
+  <line x1="20" y1="50" x2="880" y2="50" stroke="#80bc00" stroke-width="2"/>
+  
+  <!-- Filtros no topo -->
+  <rect x="20" y="70" width="860" height="50" rx="4" fill="white" stroke="#dce8f1" stroke-width="1"/>
+  <text x="40" y="100" font-family="Segoe UI" font-size="14" font-weight="bold" fill="#333333">Filtros:</text>
+  <text x="100" y="100" font-family="Segoe UI" font-size="14" fill="#333333">Período:</text>
+  <rect x="160" y="85" width="150" height="25" rx="4" fill="white" stroke="#dce8f1" stroke-width="1"/>
+  <text x="170" y="100" font-family="Segoe UI" font-size="14" fill="#666666">Q1 2025</text>
+  <polygon points="300,97 310,90 310,104" fill="#333333"/>
+  
+  <text x="340" y="100" font-family="Segoe UI" font-size="14" fill="#333333">Visualizar:</text>
+  <rect x="410" y="85" width="150" height="25" rx="4" fill="white" stroke="#dce8f1" stroke-width="1"/>
+  <text x="420" y="100" font-family="Segoe UI" font-size="14" fill="#666666">Por Equipe</text>
+  <polygon points="550,97 560,90 560,104" fill="#333333"/>
+  
+  <text x="590" y="100" font-family="Segoe UI" font-size="14" fill="#333333">Unidade:</text>
+  <rect x="650" y="85" width="150" height="25" rx="4" fill="white" stroke="#dce8f1" stroke-width="1"/>
+  <text x="660" y="100" font-family="Segoe UI" font-size="14" fill="#666666">Story Points</text>
+  <polygon points="790,97 800,90 800,104" fill="#333333"/>
+  
+  <!-- Gráfico principal -->
+  <rect x="100" y="140" width="700" height="300" fill="white" stroke="#dce8f1" stroke-width="1"/>
+  
+  <!-- Eixo Y (vertical) -->
+  <line x1="100" y1="140" x2="100" y2="440" stroke="#333333" stroke-width="2"/>
+  <text x="90" y="140" font-family="Segoe UI" font-size="12" fill="#333333" text-anchor="end">150</text>
+  <line x1="95" y1="140" x2="100" y2="140" stroke="#333333" stroke-width="1"/>
+  
+  <text x="90" y="190" font-family="Segoe UI" font-size="12" fill="#333333" text-anchor="end">120</text>
+  <line x1="95" y1="190" x2="100" y2="190" stroke="#333333" stroke-width="1"/>
+  <line x1="100" y1="190" x2="800" y2="190" stroke="#dce8f1" stroke-width="1" stroke-dasharray="4,4"/>
+  
+  <text x="90" y="240" font-family="Segoe UI" font-size="12" fill="#333333" text-anchor="end">90</text>
+  <line x1="95" y1="240" x2="100" y2="240" stroke="#333333" stroke-width="1"/>
+  <line x1="100" y1="240" x2="800" y2="240" stroke="#dce8f1" stroke-width="1" stroke-dasharray="4,4"/>
+  
+  <text x="90" y="290" font-family="Segoe UI" font-size="12" fill="#333333" text-anchor="end">60</text>
+  <line x1="95" y1="290" x2="100" y2="290" stroke="#333333" stroke-width="1"/>
+  <line x1="100" y1="290" x2="800" y2="290" stroke="#dce8f1" stroke-width="1" stroke-dasharray="4,4"/>
+  
+  <text x="90" y="340" font-family="Segoe UI" font-size="12" fill="#333333" text-anchor="end">30</text>
+  <line x1="95" y1="340" x2="100" y2="340" stroke="#333333" stroke-width="1"/>
+  <line x1="100" y1="340" x2="800" y2="340" stroke="#dce8f1" stroke-width="1" stroke-dasharray="4,4"/>
+  
+  <text x="90" y="440" font-family="Segoe UI" font-size="12" fill="#333333" text-anchor="end">0</text>
+  <line x1="95" y1="440" x2="100" y2="440" stroke="#333333" stroke-width="1"/>
+  
+  <!-- Eixo X (horizontal) -->
+  <line x1="100" y1="440" x2="800" y2="440" stroke="#333333" stroke-width="2"/>
+  
+  <!-- Rótulos do Eixo X -->
+  <text x="180" y="460" font-family="Segoe UI" font-size="14" fill="#333333" text-anchor="middle">Equipe DevOps</text>
+  <text x="330" y="460" font-family="Segoe UI" font-size="14" fill="#333333" text-anchor="middle">Equipe API</text>
+  <text x="480" y="460" font-family="Segoe UI" font-size="14" fill="#333333" text-anchor="middle">Equipe Frontend</text>
+  <text x="630" y="460" font-family="Segoe UI" font-size="14" fill="#333333" text-anchor="middle">Equipe Backend</text>
+  <text x="780" y="460" font-family="Segoe UI" font-size="14" fill="#333333" text-anchor="middle">Equipe QA</text>
+  
+  <!-- Barras de Capacidade -->
+  <rect x="130" y="190" width="100" height="250" fill="#f5f9fc" stroke="#dce8f1" stroke-width="1"/>
+  <rect x="280" y="240" width="100" height="200" fill="#f5f9fc" stroke="#dce8f1" stroke-width="1"/>
+  <rect x="430" y="240" width="100" height="200" fill="#f5f9fc" stroke="#dce8f1" stroke-width="1"/>
+  <rect x="580" y="220" width="100" height="220" fill="#f5f9fc" stroke="#dce8f1" stroke-width="1"/>
+  <rect x="730" y="290" width="100" height="150" fill="#f5f9fc" stroke="#dce8f1" stroke-width="1"/>
+  
+  <!-- Linha de capacidade máxima -->
+  <line x1="130" y1="190" x2="230" y2="190" stroke="#333333" stroke-width="2"/>
+  <line x1="280" y1="240" x2="380" y2="240" stroke="#333333" stroke-width="2"/>
+  <line x1="430" y1="240" x2="530" y2="240" stroke="#333333" stroke-width="2"/>
+  <line x1="580" y1="220" x2="680" y2="220" stroke="#333333" stroke-width="2"/>
+  <line x1="730" y1="290" x2="830" y2="290" stroke="#333333" stroke-width="2"/>
+  
+  <!-- Barras de Demanda (empilhadas) -->
+  <!-- Equipe DevOps -->
+  <rect x="130" y="340" width="100" height="100" fill="#005e8a"/>
+  <rect x="130" y="290" width="100" height="50" fill="#80bc00"/>
+  <rect x="130" y="250" width="100" height="40" fill="#f39c12"/>
+  
+  <!-- Equipe API -->
+  <rect x="280" y="390" width="100" height="50" fill="#005e8a"/>
+  <rect x="280" y="340" width="100" height="50" fill="#80bc00"/>
+  <rect x="280" y="310" width="100" height="30" fill="#f39c12"/>
+  <rect x="280" y="240" width="100" height="70" fill="#9b59b6"/>
+  
+  <!-- Equipe Frontend -->
+  <rect x="430" y="370" width="100" height="70" fill="#005e8a"/>
+  <rect x="430" y="320" width="100" height="50" fill="#80bc00"/>
+  <rect x="430" y="290" width="100" height="30" fill="#f39c12"/>
+  
+  <!-- Equipe Backend -->
+  <rect x="580" y="390" width="100" height="50" fill="#005e8a"/>
+  <rect x="580" y="330" width="100" height="60" fill="#80bc00"/>
+  <rect x="580" y="290" width="100" height="40" fill="#f39c12"/>
+  <rect x="580" y="250" width="100" height="40" fill="#9b59b6"/>
+  
+  <!-- Equipe QA -->
+  <rect x="730" y="390" width="100" height="50" fill="#005e8a"/>
+  <rect x="730" y="360" width="100" height="30" fill="#80bc00"/>
+  
+  <!-- Indicador de Sobrealocação -->
+  <rect x="280" y="200" width="100" height="40" fill="#d9534f" fill-opacity="0.3" stroke="#d9534f" stroke-width="1" stroke-dasharray="5,3"/>
+  <text x="330" y="225" font-family="Segoe UI" font-size="12" fill="#d9534f" text-anchor="middle">Sobrealocação</text>
+  
+  <!-- Legenda -->
+  <rect x="100" y="480" width="700" height="35" rx="4" fill="white" stroke="#dce8f1" stroke-width="1"/>
+  
+  <rect x="120" y="487" width="15" height="15" fill="#005e8a"/>
+  <text x="145" y="498" font-family="Segoe UI" font-size="12" fill="#333333">Iniciativa 1</text>
+  
+  <rect x="230" y="487" width="15" height="15" fill="#80bc00"/>
+  <text x="255" y="498" font-family="Segoe UI" font-size="12" fill="#333333">Iniciativa 2</text>
+  
+  <rect x="340" y="487" width="15" height="15" fill="#f39c12"/>
+  <text x="365" y="498" font-family="Segoe UI" font-size="12" fill="#333333">Iniciativa 3</text>
+  
+  <rect x="450" y="487" width="15" height="15" fill="#9b59b6"/>
+  <text x="475" y="498" font-family="Segoe UI" font-size="12" fill="#333333">Iniciativa 4</text>
+  
+  <line x1="560" y1="487" x2="590" y2="487" stroke="#333333" stroke-width="2"/>
+  <text x="645" y="498" font-family="Segoe UI" font-size="12" fill="#333333">Capacidade Máxima</text>
+</svg>
