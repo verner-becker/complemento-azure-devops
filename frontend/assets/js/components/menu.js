@@ -47,14 +47,14 @@ function initializeMenu() {
 }
 
 function loadPage(section) {
-    // Hide all sections
+    // Remove active class from all sections
     const sections = document.querySelectorAll('.section');
-    sections.forEach(s => s.style.display = 'none');
+    sections.forEach(s => s.classList.remove('active'));
 
     // Show selected section
     const selectedSection = document.getElementById(section);
     if (selectedSection) {
-        selectedSection.style.display = 'block';
+        selectedSection.classList.add('active');
     }
 
     // Update URL hash

@@ -47,6 +47,11 @@ frontend/
   - Submenus expansíveis
   - Navegação entre páginas
   - Layout responsivo
+- Estrutura base das páginas implementada
+  - Container principal para conteúdo
+  - Seções para todas as páginas do sistema
+  - Sistema de visibilidade e transições
+  - Mensagens "Em construção" para páginas pendentes
 
 ## Scripts de Automação
 
