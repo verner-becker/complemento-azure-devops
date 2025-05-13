@@ -112,3 +112,41 @@
 - Implementada animação fadeIn para melhor experiência do usuário
 - Mensagens "Em construção" estilizadas seguindo padrão visual
 - Sistema preparado para implementação gradual das páginas
+
+### FE-005: Utilitários JS comuns
+**Status**: ✅ Concluído  
+**Data**: 13/05/2025
+
+#### Detalhes da Implementação
+- Criado arquivo `utils/api.js` com funções base para chamadas à API
+- Implementado sistema completo de tratamento de erros
+  - Classe `APIError` personalizada
+  - Tratamento específico por código de status HTTP
+  - Mensagens de erro em português
+- Funções de manipulação DOM implementadas
+  - `show`/`hide` para controle de visibilidade
+  - `create` para criação dinâmica de elementos
+  - Suporte para atributos, estilos e eventos
+- Sistema de validação de formulários
+  - Validação de campos obrigatórios
+  - Suporte para regras de validação customizadas
+  - Exibição de mensagens de erro
+  - Limpeza automática de erros
+
+#### Componentes Criados/Modificados
+- JavaScript:
+  - `utils/api.js`: Novo arquivo com todas as utilidades
+  - Implementação modular com exportação de funções
+  - Documentação completa com JSDoc
+
+#### Validações Realizadas
+- Funções de API testadas com diferentes métodos HTTP
+- Sistema de erro validado para diversos cenários
+- Funções DOM testadas com elementos dinâmicos
+- Validação de formulário testada com diferentes regras
+
+#### Observações
+- Código totalmente documentado com JSDoc
+- Mensagens de erro traduzidas para português
+- Sistema preparado para expansão futura
+- Design modular para fácil manutenção

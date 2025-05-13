@@ -52,6 +52,11 @@ frontend/
   - Seções para todas as páginas do sistema
   - Sistema de visibilidade e transições
   - Mensagens "Em construção" para páginas pendentes
+- Utilitários JavaScript implementados
+  - Sistema completo de chamadas à API
+  - Tratamento de erros com mensagens em português
+  - Funções para manipulação do DOM
+  - Sistema de validação de formulários
 
 ## Scripts de Automação
 
