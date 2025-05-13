@@ -58,6 +58,43 @@ frontend/
   - Funções para manipulação do DOM
   - Sistema de validação de formulários
 
+### Fase 2 - Backend Mock e API ✅
+- Mock API configurada com JSON Server
+  - Endpoints para todas as entidades
+  - Dados realistas para desenvolvimento
+  - Documentação completa dos endpoints
+  - Testes via REST Client
+- Dev Container configurado
+  - Suporte a Node.js e Java
+  - PostgreSQL para backend (preparado)
+  - Extensões VS Code necessárias
+  - Ambiente replicável
+
+## Executando o Projeto
+
+### Pré-requisitos
+- VS Code com extensão Dev Containers
+- Docker Desktop instalado
+- Git instalado
+
+### Configuração do Ambiente
+1. Clone o repositório
+2. Abra no VS Code com Dev Containers
+3. Aguarde a construção do container
+
+### Iniciando a Mock API
+```bash
+npm run mock-api
+```
+
+A API estará disponível em `http://localhost:3000/api`
+
+### Documentação da API
+Consulte `mock-api-docs.md` para detalhes dos endpoints disponíveis.
+
+### Testando a API
+Use o arquivo `requests.http` com a extensão REST Client para testar os endpoints.
+
 ## Scripts de Automação
 
 ### FE-001-passo01.sh

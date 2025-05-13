@@ -150,3 +150,44 @@
 - Mensagens de erro traduzidas para português
 - Sistema preparado para expansão futura
 - Design modular para fácil manutenção
+
+### FE-006: Configuração do JSON Server para mock API
+**Status**: ✅ Concluído  
+**Data**: 13/05/2025
+
+#### Detalhes da Implementação
+- JSON Server instalado como devDependency (versão 0.17.4)
+- Configuração de mock API com dados realistas em `db.json`
+- Rotas personalizadas configuradas em `routes.json`
+- Sistema de mock implementado com endpoints:
+  - `/api/initiatives` - Iniciativas
+  - `/api/packages` - Pacotes de Entrega
+  - `/api/epics` - Épicos
+  - `/api/reports/*` - Endpoints de relatórios
+  - `/api/configurations` - Configurações do sistema
+
+#### Arquivos Criados
+- `db.json`: Banco de dados mock com dados de exemplo
+- `routes.json`: Configuração de rotas da API
+- `server.js`: Configuração personalizada do JSON Server
+- `requests.http`: Arquivo de teste de requisições REST
+- `mock-api-docs.md`: Documentação completa da API
+
+#### Configurações do Ambiente
+- Dev Container atualizado com suporte a Node.js
+- JSON Server configurado para rodar na porta 3000
+- Instalação global do json-server no container
+- REST Client configurado para testes de API
+
+#### Validações Realizadas
+- Todos os endpoints testados via REST Client
+- Dados mock validados para cada entidade
+- Rotas personalizadas verificadas
+- Relatórios retornando dados corretos
+- Integração com dev container testada
+
+#### Observações
+- Dados mock seguem estrutura real do backend
+- Documentação completa dos endpoints disponível
+- Ambiente replicável via configurações do dev container
+- Suporte a operações CRUD em todas as entidades
