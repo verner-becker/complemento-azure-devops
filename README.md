@@ -37,12 +37,16 @@ frontend/
 - Configuração inicial do projeto
 - Estrutura de diretórios estabelecida
 - Arquivos base HTML, CSS e JavaScript criados
-- Sistema de roteamento básico implementado
 - Sistema completo de estilos CSS implementado
   - Variáveis CSS para cores corporativas
   - Layout responsivo e sistema de grid
   - Componentes base estilizados
   - Classes utilitárias para flexibilidade
+- Sistema de navegação principal implementado
+  - Menu lateral com todas as seções
+  - Submenus expansíveis
+  - Navegação entre páginas
+  - Layout responsivo
 
 ## Scripts de Automação
 

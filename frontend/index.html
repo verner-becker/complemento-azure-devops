@@ -15,11 +15,113 @@
 
     <div class="container">
         <nav id="menu-lateral">
-            <!-- Menu será renderizado via JavaScript -->
+            <ul class="menu">
+                <li class="menu-item">
+                    <a href="#dashboard" class="menu-link active" data-section="dashboard">Dashboard</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link has-submenu">Cadastros</a>
+                    <ul class="submenu">
+                        <li class="submenu-item">
+                            <a href="#iniciativas" class="submenu-link" data-section="iniciativas">Iniciativas</a>
+                        </li>
+                        <li class="submenu-item">
+                            <a href="#pacotes" class="submenu-link" data-section="pacotes">Pacotes de Entrega</a>
+                        </li>
+                        <li class="submenu-item">
+                            <a href="#epicos" class="submenu-link" data-section="epicos">Épicos</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link has-submenu">Visualizações</a>
+                    <ul class="submenu">
+                        <li class="submenu-item">
+                            <a href="#gantt" class="submenu-link" data-section="gantt">Gráfico de Gantt</a>
+                        </li>
+                        <li class="submenu-item">
+                            <a href="#dependencias" class="submenu-link" data-section="dependencias">Mapa de Dependências</a>
+                        </li>
+                        <li class="submenu-item">
+                            <a href="#capacidade" class="submenu-link" data-section="capacidade">Capacidade vs. Demanda</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link has-submenu">Relatórios</a>
+                    <ul class="submenu">
+                        <li class="submenu-item">
+                            <a href="#relatorio-iniciativas" class="submenu-link" data-section="relatorio-iniciativas">Status por Iniciativa</a>
+                        </li>
+                        <li class="submenu-item">
+                            <a href="#relatorio-pacotes" class="submenu-link" data-section="relatorio-pacotes">Status por Pacote</a>
+                        </li>
+                        <li class="submenu-item">
+                            <a href="#relatorio-epicos" class="submenu-link" data-section="relatorio-epicos">Progresso de Épicos</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu-item">
+                    <a href="#configuracoes" class="menu-link" data-section="configuracoes">Configurações</a>
+                </li>
+            </ul>
         </nav>
 
         <main id="conteudo-principal">
-            <!-- Conteúdo dinâmico será renderizado aqui -->
+            <div id="dashboard" class="section active">
+                <h1>Dashboard</h1>
+                <p>Página inicial do sistema.</p>
+            </div>
+            
+            <div id="iniciativas" class="section">
+                <h1>Iniciativas</h1>
+                <p>Gerenciamento de iniciativas.</p>
+            </div>
+            
+            <div id="pacotes" class="section">
+                <h1>Pacotes de Entrega</h1>
+                <p>Gerenciamento de pacotes de entrega.</p>
+            </div>
+            
+            <div id="epicos" class="section">
+                <h1>Épicos</h1>
+                <p>Gerenciamento de épicos.</p>
+            </div>
+            
+            <div id="gantt" class="section">
+                <h1>Gráfico de Gantt</h1>
+                <p>Visualização do cronograma do projeto.</p>
+            </div>
+            
+            <div id="dependencias" class="section">
+                <h1>Mapa de Dependências</h1>
+                <p>Visualização das dependências entre pacotes.</p>
+            </div>
+            
+            <div id="capacidade" class="section">
+                <h1>Capacidade vs. Demanda</h1>
+                <p>Análise de capacidade e demanda.</p>
+            </div>
+            
+            <div id="relatorio-iniciativas" class="section">
+                <h1>Status por Iniciativa</h1>
+                <p>Relatório de status das iniciativas.</p>
+            </div>
+            
+            <div id="relatorio-pacotes" class="section">
+                <h1>Status por Pacote</h1>
+                <p>Relatório de status dos pacotes.</p>
+            </div>
+            
+            <div id="relatorio-epicos" class="section">
+                <h1>Progresso de Épicos</h1>
+                <p>Relatório de progresso dos épicos.</p>
+            </div>
+            
+            <div id="configuracoes" class="section">
+                <h1>Configurações</h1>
+                <p>Configurações do sistema.</p>
+            </div>
         </main>
     </div>
 
