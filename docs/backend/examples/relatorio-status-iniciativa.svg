@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 900 700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fundo -->
+  <rect width="900" height="700" fill="#f9f9f9"/>
+  
+  <!-- Cabeçalho -->
+  <rect x="0" y="0" width="900" height="60" fill="#005e8a"/>
+  <text x="30" y="38" font-family="Segoe UI" font-size="22" font-weight="bold" fill="white">Complemento Azure DevOps</text>
+  
+  <!-- Título do Relatório -->
+  <text x="30" y="100" font-family="Segoe UI" font-size="24" font-weight="bold" fill="#005e8a">Relatório: Status por Iniciativa</text>
+  <line x1="30" y1="110" x2="870" y2="110" stroke="#80bc00" stroke-width="2"/>
+  
+  <!-- Informações do Relatório -->
+  <rect x="30" y="130" width="840" height="50" rx="4" fill="white" stroke="#dce8f1" stroke-width="1"/>
+  <text x="50" y="155" font-family="Segoe UI" font-size="14" fill="#333333">Período: Q1 2025 (01/01/2025 - 31/03/2025)</text>
+  <text x="400" y="155" font-family="Segoe UI" font-size="14" fill="#333333">Data de Geração: 12/05/2025</text>
+  <text x="670" y="155" font-family="Segoe UI" font-size="14" fill="#333333">Total de Iniciativas: 3</text>
+  
+  <!-- Botões de Exportação -->
+  <rect x="700" y="70" width="80" height="30" rx="4" fill="#f5f9fc" stroke="#dce8f1" stroke-width="1"/>
+  <text x="735" y="90" font-family="Segoe UI" font-size="14" fill="#005e8a" font-weight="bold" text-anchor="middle">PDF</text>
+  <rect x="790" y="70" width="80" height="30" rx="4" fill="#f5f9fc" stroke="#dce8f1" stroke-width="1"/>
+  <text x="825" y="90" font-family="Segoe UI" font-size="14" fill="#005e8a" font-weight="bold" text-anchor="middle">Excel</text>
+  
+  <!-- Resumo Executivo -->
+  <rect x="30" y="200" width="400" height="180" rx="4" fill="white" stroke="#dce8f1" stroke-width="1"/>
+  <rect x="30" y="200" width="400" height="40" rx="4" fill="#f5f9fc"/>
+  <text x="50" y="225" font-family="Segoe UI" font-size="16" font-weight="bold" fill="#005e8a">Resumo Executivo</text>
+  
+  <!-- Indicadores de Status -->
+  <rect x="50" y="250" width="100" height="100" rx="4" fill="#e0f0d9"/>
+  <text x="100" y="285" font-family="Segoe UI" font-size="24" font-weight="bold" fill="#30803c" text-anchor="middle">1</text>
+  <text x="100" y="315" font-family="Segoe UI" font-size="14" fill="#30803c" text-anchor="middle">Em dia</text>
+  
+  <rect x="160" y="250" width="100" height="100" rx="4" fill="#fcecd2"/>
+  <text x="210" y="285" font-family="Segoe UI" font-size="24" font-weight="bold" fill="#a86228" text-anchor="middle">1</text>
+  <text x="210" y="315" font-family="Segoe UI" font-size="14" fill="#a86228" text-anchor="middle">Em risco</text>
+  
+  <rect x="270" y="250" width="100" height="100" rx="4" fill="#f8d7da"/>
+  <text x="320" y="285" font-family="Segoe UI" font-size="24" font-weight="bold" fill="#d9534f" text-anchor="middle">1</text>
+  <text x="320" y="315" font-family="Segoe UI" font-size="14" fill="#d9534f" text-anchor="middle">Atrasado</text>
+  
+  <!-- Gráfico de Status -->
+  <rect x="450" y="200" width="420" height="180" rx="4" fill="white" stroke="#dce8f1" stroke-width="1"/>
+  <rect x="450" y="200" width="420" height="40" rx="4" fill="#f5f9fc"/>
+  <text x="470" y="225" font-family="Segoe UI" font-size="16" font-weight="bold" fill="#005e8a">Status das Iniciativas</text>
+  
+  <!-- Gráfico de Pizza -->
+  <circle cx="580" cy="290" r="70" fill="white" stroke="#dce8f1" stroke-width="1"/>
+  <path d="M580,290 L580,220 A70,70 0 0,1 643,326 z" fill="#e0f0d9"/>
+  <path d="M580,290 L643,326 A70,70 0 0,1 517,326 z" fill="#fcecd2"/>
+  <path d="M580,290 L517,326 A70,70 0 0,1 580,220 z" fill="#f8d7da"/>
+  
+  <!-- Legenda do Gráfico -->
+  <rect x="680" y="250" width="15" height="15" fill="#e0f0d9"/>
+  <text x="705" y="263" font-family="Segoe UI" font-size="14" fill="#333333">Em dia (33%)</text>
+  
+  <rect x="680" y="280" width="15" height="15" fill="#fcecd2"/>
+  <text x="705" y="293" font-family="Segoe UI" font-size="14" fill="#333333">Em risco (33%)</text>
+  
+  <rect x="680" y="310" width="15" height="15" fill="#f8d7da"/>
+  <text x="705" y="323" font-family="Segoe UI" font-size="14" fill="#333333">Atrasado (33%)</text>
+  
+  <!-- Tabela Principal -->
+  <rect x="30" y="400" width="840" height="280" rx="4" fill="white" stroke="#dce8f1" stroke-width="1"/>
+  
+  <!-- Cabeçalho da Tabela -->
+  <rect x="30" y="400" width="840" height="40" rx="4" fill="#f5f9fc"/>
+  <line x1="30" y1="440" x2="870" y2="440" stroke="#dce8f1" stroke-width="1"/>
+  <text x="50" y="425" font-family="Segoe UI" font-size="14" font-weight="bold" fill="#333333">Código</text>
+  <text x="150" y="425" font-family="Segoe UI" font-size="14" font-weight="bold" fill="#333333">Título</text>
+  <text x="370" y="425" font-family="Segoe UI" font-size="14" font-weight="bold" fill="#333333">Responsável</text>
+  <text x="490" y="425" font-family="Segoe UI" font-size="14" font-weight="bold" fill="#333333">Data Fim</text>
+  <text x="580" y="425" font-family="Segoe UI" font-size="14" font-weight="bold" fill="#333333">Status</text>
+  <text x="670" y="425" font-family="Segoe UI" font-size="14" font-weight="bold" fill="#333333">Progresso</text>
+  <text x="770" y="425" font-family="Segoe UI" font-size="14" font-weight="bold" fill="#333333">Saúde</text>
+  <text x="830" y="425" font-family="Segoe UI" font-size="14" font-weight="bold" fill="#333333">Pacotes</text>
+  
+  <!-- Linhas da Tabela -->
+  <!-- Linha 1 -->
+  <rect x="30" y="440" width="840" height="60" fill="white"/>
+  <line x1="30" y1="500" x2="870" y2="500" stroke="#dce8f1" stroke-width="1"/>
+  <text x="50" y="470" font-family="Segoe UI" font-size="14" fill="#333333">INI-001</text>
+  <text x="150" y="470" font-family="Segoe UI" font-size="14" fill="#333333">Modernização de Gateway</text>
+  <text x="370" y="470" font-family="Segoe UI" font-size="14" fill="#333333">João Silva</text>
+  <text x="490" y="470" font-family="Segoe UI" font-size="14" fill="#333333">31/12/2025</text>
+  <rect x="580" y="455" width="80" height="25" rx="12" fill="#e0f0d9"/>
+  <text x="620" y="472" font-family="Segoe UI" font-size="12" fill="#30803c" text-anchor="middle">Em Progresso</text>
+  
+  <!-- Barra de Progresso -->
+  <rect x="670" y="460" width="70" height="15" rx="7" fill="#f5f9fc" stroke="#dce8f1" stroke-width="1"/>
+  <rect x="670" y="460" width="35" height="15" rx="7" fill="#80bc00"/>
+  <text x="750" y="472" font-family="Segoe UI" font-size="12" fill="#333333">50%</text>
+  
+  <circle cx="780" y="470" r="10" fill="#e0f0d9" stroke="#30803c" stroke-width="2"/>
+  <text x="830" y="470" font-family="Segoe UI" font-size="14" fill="#333333">3</text>
+  
+  <!-- Linha 2 -->
+  <rect x="30" y="500" width="840" height="60" fill="#f9f9f9"/>
+  <line x1="30" y1="560" x2="870" y2="560" stroke="#dce8f1" stroke-width="1"/>
+  <text x="50" y="530" font-family="Segoe UI" font-size="14" fill="#333333">INI-002</text>
+  <text x="150" y="530" font-family="Segoe UI" font-size="14" fill="#333333">Migração para Nuvem</text>
+  <text x="370" y="530" font-family="Segoe UI" font-size="14" fill="#333333">Maria Souza</text>
+  <text x="490" y="530" font-family="Segoe UI" font-size="14" fill="#333333">30/06/2026</text>
+  <rect x="580" y="515" width="80" height="25" rx="12" fill="#fcecd2"/>
+  <text x="620" y="532" font-family="Segoe UI" font-size="12" fill="#a86228" text-anchor="middle">Planejado</text>
+  
+  <!-- Barra de Progresso -->
+  <rect x="670" y="520" width="70" height="15" rx="7" fill="#f5f9fc" stroke="#dce8f1" stroke-width="1"/>
+  <rect x="670" y="520" width="7" height="15" rx="7" fill="#80bc00"/>
+  <text x="750" y="532" font-family="Segoe UI" font-size="12" fill="#333333">10%</text>
+  
+  <circle cx="780" y="530" r="10" fill="#fcecd2" stroke="#a86228" stroke-width="2"/>
+  <text x="830" y="530" font-family="Segoe UI" font-size="14" fill="#333333">2</text>
+  
+  <!-- Linha 3 -->
+  <rect x="30" y="560" width="840" height="60" fill="white"/>
+  <line x1="30" y1="620" x2="870" y2="620" stroke="#dce8f1" stroke-width="1"/>
+  <text x="50" y="590" font-family="Segoe UI" font-size="14" fill="#333333">INI-003</text>
+  <text x="150" y="590" font-family="Segoe UI" font-size="14" fill="#333333">Segurança e Compliance</text>
+  <text x="370" y="590" font-family="Segoe UI" font-size="14" fill="#333333">Pedro Oliveira</text>
+  <text x="490" y="590" font-family="Segoe UI" font-size="14" fill="#333333">31/03/2026</text>
+  <rect x="580" y="575" width="80" height="25" rx="12" fill="#d1e6f9"/>
+  <text x="620" y="592" font-family="Segoe UI" font-size="12" fill="#2d7fc9" text-anchor="middle">Não Iniciado</text>
+  
+  <!-- Barra de Progresso -->
+  <rect x="670" y="580" width="70" height="15" rx="7" fill="#f5f9fc" stroke="#dce8f1" stroke-width="1"/>
+  <rect x="670" y="580" width="0" height="15" rx="7" fill="#80bc00"/>
+  <text x="750" y="592" font-family="Segoe UI" font-size="12" fill="#333333">0%</text>
+  
+  <circle cx="780" y="590" r="10" fill="#f8d7da" stroke="#d9534f" stroke-width="2"/>
+  <text x="830" y="590" font-family="Segoe UI" font-size="14" fill="#333333">1</text>
+  
+  <!-- Rodapé -->
+  <rect x="30" y="650" width="840" height="35" rx="4" fill="#f5f9fc" stroke="#dce8f1" stroke-width="1"/>
+  <text x="50" y="672" font-family="Segoe UI" font-size="12" fill="#666666">Critérios de Saúde: Verde=Em dia, Amarelo=Em risco (possível atraso), Vermelho=Atrasado ou bloqueado</text>
+  <text x="750" y="672" font-family="Segoe UI" font-size="12" fill="#666666">Página 1 de 1</text>
+</svg>
